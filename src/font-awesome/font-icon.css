@@ -5,7 +5,11 @@
   font-weight: normal;
   font-style: normal;
 }
-.icon-blank:before { 
+.icon-blank:before, .icon-add:before, .icon-edit:before, .icon-clear:before, .icon-remove:before, .icon-save:before, .icon-cut:before
+, .icon-ok:before, .icon-no:before, .icon-cancel:before, .icon-reload:before, .icon-search:before, .icon-print:before, .icon-help:before
+, .icon-undo:before, .icon-redo:before, .icon-back:before, .icon-sum:before, .icon-tip:before, .icon-filter:before, .icon-man:before
+, .icon-lock:before, .icon-more:before, .icon-mini-add:before, .icon-mini-edit:before, .icon-mini-refresh:before, .icon-large-picture:before
+, .icon-large-clipart:before, .icon-large-shapes:before, .icon-large-smartart:before, .icon-large-chart:before{ 
     display: inline-block; 
     font-family: "FontAwesome"; 
     speak: none; 
@@ -16,9 +20,104 @@
     text-rendering: auto; 
     line-height: 1;
     -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale; 
+    -moz-osx-font-smoothing: grayscale;
+    background-image:none;
 }
 
 .icon-blank:before {
-
+   /*TODO*/
 }
+.icon-add:before {
+	content: "\f067";
+}
+.icon-edit:before {
+	content: "\f044";
+}
+.icon-clear:before {
+	content: "\f00d";
+}
+.icon-remove:before {
+	content: "\f068";
+}
+.icon-save:before {
+	content: "\f0c7";
+}
+.icon-cut:before {
+	content: "\f0c4";
+}
+.icon-ok:before {
+	content: "\f00c";
+}
+.icon-no:before {
+	content: "\f057";
+}
+.icon-cancel:before {
+	content: "\f00d";
+}
+.icon-reload:before{
+	content: "\f021";
+}
+.icon-search:before {
+	content: "\f002";
+}
+.icon-print:before {
+	content: "\f02f";
+}
+.icon-help:before {
+	content: "\f059";
+}
+.icon-undo:before {
+	content: "\f0e2";
+}
+.icon-redo:before {
+	content: "\f064";
+}
+.icon-back:before {
+	content: "\f04a";
+}
+.icon-sum:before {
+	/*TODO*/
+}
+.icon-tip:before {
+	content: "\f0eb";
+}
+.icon-filter:before {
+	content: "\f0b0";
+}
+.icon-man:before {
+	content: "\f183";
+}
+.icon-lock:before {
+	content: "\f023";
+}
+.icon-more:before {
+	content: "\f142";
+}
+
+.icon-mini-add:before {
+	content: "\f055";
+}
+.icon-mini-edit:before {
+	content: "\f040";
+}
+.icon-mini-refresh:before {
+	content: "\f021";
+}
+
+.icon-large-picture:before {
+	content: "\f03e";
+}
+.icon-large-clipart:before {
+	/*TODO*/
+}
+.icon-large-shapes:before {
+	/*TODO*/
+}
+.icon-large-smartart:before {
+	/*TODO*/
+}
+.icon-large-chart:before {
+	content: "\f080";
+}
+
+
