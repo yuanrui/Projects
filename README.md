@@ -1,7 +1,7 @@
-# easyui-font-awesome
+# easyui-font-icon
 In the JQuery EasyUI the icon css use many small pictures, when use the relate icon css class the PNG file may request from server. And the original picture not support in zoom. 
 
-As those reason this project plan Font Awesome replace small icon pictures in css. 
+As those reason this project plan Font Awesome(or other font) replace small icon pictures in css. 
 
 ##License
 ####Font License
